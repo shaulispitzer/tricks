@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mind reading</title>
+    <link rel="stylesheet" href="./trick.css">
+</head>
+<body>
+    <span>en | <a href="./he.html">עב</a></span><br>
+    <div>
+        <span class="heading" id="time"></span>
+    <span class="heading">Do you think I can't read your mind?</span>
+
+<br>
+<p class="title">Think of a whole number between 7 and 105 and I will get it with three small questions.</p>
+<span class="decision">(If you can't decide then choose this random one:</span><span id="random" class="decision"></span>
+    <p>1. Divide the number by 3, don't tell me the answer<br>because that is no trick, just select the <a href="https://www.mathsisfun.com/definitions/remainder.html" target="_blank"><strong>remainder</strong></a> here:<br><small>(If it is too hard for you to find a remainder then use the remainder calculator)</small></p>
+    <select name="cars" id="hree">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        
+      </select><hr class="line">
+      <p>2. Divide the number by 5 and put the <strong>remainder</strong> here.</p>
+    <input id="ive" placeholder="remainder of 5" type="number" oninput="alert2()"><hr>
+    <p>3. Divide the number by 7 and put the <strong>remainder</strong> here.</p>
+    <input id="even" placeholder="remainder of 7" type="number"  oninput="alert3()" ><br><br>
+    
+    <button id="button" class="button">find answer</button><br><br>
+    <span class="end" id="answer"></span><br><br>
+  </div>
+    <div class="right">
+        <h3>Remainder Calculator</h3>
+    <label>find the remainder from 3</label>
+    <input class="one" id="first" placeholder="Enter Number" oninput="myFunction()">
+    <span class="echad" id="rishon"></span><br>
+    
+    <label>find the remainder from 5</label>
+    <input class="two" id="second" placeholder="Enter Number" oninput="myFunction1()">
+    <span class="shtayim" id="shniya"></span><br>
+    
+    <label>find the remainder from 7</label>
+    <input class="three" id="third"  min="7" max="105" placeholder="Enter Number" oninput="myFunction2()">
+    <span class="shalosh" id="shelishi"></span><br>
+    
+    </div>
+    <script src="./trick_en.js"></script>
+
+</body>
+</html>

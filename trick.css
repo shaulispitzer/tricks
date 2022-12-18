@@ -1,0 +1,78 @@
+.multiplication {
+    border: 1px solid black;
+}
+
+.class {
+    transition: 0.9s;
+}
+
+.right {
+    background-color: aqua;
+    /* float:right; */
+    padding: 15px;
+    border: 2px solid gray;
+}
+
+.answer {
+    padding: 10px;
+    background-color: yellow;
+    font-weight:bolder;
+    font-size: 50px;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 587px){
+    .answer{padding: 8px;
+        background-color: yellow;
+        font-weight:bolder;
+        font-size: 30px; 
+        border: 1px solid salmon;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+}
+@media only screen and (max-width: 483px){
+    .answer{padding: 5px;
+        background-color: yellow;
+        font-weight:bolder;
+        font-size: 25px;
+        border: 1px solid salmon;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+}
+.title {
+    font-size:20px;
+}
+body {
+    padding: 15px;
+}
+
+.decision {
+    color: rgb(153, 152, 152);
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.end {
+   opacity: 0;
+   box-decoration-break: clone;
+   
+}
+div {
+    float: left;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.line {
+    color: rebeccapurple;
+    font-size: larger;
+}
